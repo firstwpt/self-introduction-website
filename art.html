@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ART</title>
+    <link rel="shortcut icon" type="image/png" href="images/art/4.jpg">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico/">
+    <!-- flexslider -->
+        <link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="flexslider/jquery.flexslider.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+                $('.flexslider').flexslider();
+            });
+        </script>
+    <style>
+ *{ /*การประกาศสตาร์ * = ประกาศไว้นอกสุด ครอบคลุมทั้งเว็บไซต์เลย */
+        box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        -ms-box-sizing:border-box;
+        -o-box-sizing:border-box;
+        -webkit-box-sizing:border-box; 
+    } 
+    body{
+        background-color: #fde9d3;
+        font-family: Arial,Tahoma,Verdana, sans-serif;
+        color: #424d53;
+        font-size: 16px;
+    }
+    header{
+            background-color: #424d53;
+        }
+        .menu{
+            background: #ffffff;
+            margin-bottom: 0px;
+            border: 0px;
+        }
+        .menu .logo{
+            float: left;
+        }
+        .menu h1{
+            margin: 0;
+            font-size: 24px;
+            font-weight: normal;
+            padding-top: 10px;
+            padding-left: 70%;
+        }
+        #navbar5{
+            width: 318px;
+            margin: auto;
+            float: right;
+        }  
+        .menu ul.nav li a {
+            text-decoration: none;
+            color: #424d53;
+            transition: all 0.3s ease;
+        }
+        .menu ul.nav li a:hover {
+            color: #4682B4;
+            padding-bottom: 0;
+            cursor: pointer;
+        }
+        main{
+            background-color: #ffffff;
+        }
+        .slogan{
+            height: 200px;
+            /*margin-left: auto;
+            margin-right: auto;*/
+            text-align: center;
+            padding-top: 20px;
+        }
+        .slogan h1{
+            padding-top: 0px;
+            color: #2c69a7;
+            font-family: Arial,Tahoma,Verdana, sans-serif; 
+            font-size: 70px;
+            font-weight: 540;
+        }
+        .slogan h2{
+            font-size: 18px;
+            color: #2c69a7;
+           /*text-transform: uppercase;ตัวพิมใหญ่*/
+            max-width: 620px; /*กว้างสุด*/
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .pic-art{
+            overflow: hidden;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 5%;
+        }
+        .w460{
+            height: 370px;
+            text-align: center;
+            margin-bottom: 7.5%;
+        }
+        .w460 img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        footer{ 
+            height: 90px;
+            background-color: #3b3d3d;
+            overflow: hidden;
+            background-repeat: repeat-x;
+            padding-top: 2%;
+        }
+            .copyright{
+                color: #ffffff;
+                font-weight: 700;
+                font-size: 24px;
+                text-align: center;
+                margin-bottom: 2%;
+            }
+            footer ul{
+                width: 150px;
+                height: 50px;
+                margin-bottom: 10%;
+            }
+                footer ul li{
+                    width: 30px;
+                    height: 30px;
+                    float: left; /*เพื่อให้ไอคอนแรกชิดซ้าย ถ้าขวาก็ชิดขวา*/
+                    margin-left: 5px;
+                    margin-right: 5px;                    
+                }
+                .icon1,.icon2,.icon3{
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                }
+                    .icon1{
+                        background-image: url(images/icon/facebook.jpg);
+                    }
+                    .icon1:hover{
+                        background-image: url(images/icon/facebook-o.jpg);
+                    }
+                    .icon2{
+                        background-image: url(images/icon/instagram.jpg);
+                    }
+                    .icon2:hover{
+                        background-image: url(images/icon/instagram-o.jpg);
+                    }
+                    .icon3{
+                        background-image: url(images/icon/pinterest.jpg);
+                    }
+                    .icon3:hover{
+                        background-image: url(images/icon/pinterest-o.jpg);
+                    }
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="menu navbar navbar-default">
+            <div class="logo">
+                <h1>skypeachf</h1>
+            </div>
+            
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar5">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+               
+              </div>
+              <div id="navbar5" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <!--<li class="active"><a href="index.html">HOME</a></li>-->
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="sky.html">SKY</a></li>
+                    <li><a href="art.html">ART</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+              </div>
+              <!--/.nav-collapse -->
+            </div>
+            <!--/.container-fluid -->
+        </nav>   
+
+        <section class="slogan">
+            <hgroup>
+                <h1>ART</h1>
+                <h2>by skypeachf</h2>
+            </hgroup>
+        </section><!--X slogan-->
+
+        <section class="pic-art">
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art21.jpg" alt="art1"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art41.jpg" alt="art2"></figure>
+                </article>     
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art17.jpg" alt="art3"></figure>
+                </article>  
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art42.jpg" alt="art4"></figure>
+                </article>  
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art14.jpg" alt="art5"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art43.jpg" alt="art6"></figure>
+                </article>       
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art13.jpg" alt="art7"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art12.jpg" alt="art8"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art11.jpg" alt="art9"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art10.jpg" alt="art10"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art9.jpg" alt="art11"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art8.jpg" alt="art12"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art7.jpg" alt="art13"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art6.jpg" alt="art14"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art5.jpg" alt="art15"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art4.jpg" alt="art16"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art3.jpg" alt="art17"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art2.jpg" alt="art18"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art1.jpg" alt="art19"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art39.jpg" alt="art20"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art38.jpg" alt="art21"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art37.jpg" alt="art22"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art36.jpg" alt="art23"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art35.jpg" alt="art24"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art34.jpg" alt="art25"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art33.jpg" alt="art26"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art32.jpg" alt="art27"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art31.jpg" alt="art28"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art30.jpg" alt="art29"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art29.jpg" alt="art30"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art28.jpg" alt="art31"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art27.jpg" alt="art32"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art25.jpg" alt="art33"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art24.jpg" alt="art34"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art23.jpg" alt="art35"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art22.jpg" alt="art36"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art20.jpg" alt="art37"></figure>
+                </article>
+                <article class="w460 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure><img src="images/art/art15.jpg" alt="art38"></figure>
+                </article>
+            </section><!--X pic-art-->       
+
+        <footer>
+            <div class="copyright col-md-4">
+                <h4>Copyright &copy; 2022 | skypeachf</h4>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <ul class="container">
+                    <li><a href="https://www.facebook.com/taweeporn.treewichayapong/" target="_blank" class="icon1"></a></li>
+                    <li><a href="https://www.instagram.com/firstwpt/" target="_blank" class="icon2"></a></li>
+                    <li><a href="https://pin.it/4g5MP0n" target="_blank" class="icon3"></a></li>
+                </ul>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

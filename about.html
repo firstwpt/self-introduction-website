@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <link rel="shortcut icon" type="image/png" href="images/me1.jpg">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico/">
+    <!-- flexslider -->
+        <link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="flexslider/jquery.flexslider.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+                $('.flexslider').flexslider();
+            });
+        </script>
+    <style>
+    *{ /*การประกาศสตาร์ * = ประกาศไว้นอกสุด ครอบคลุมทั้งเว็บไซต์เลย */
+        box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        -ms-box-sizing:border-box;
+        -o-box-sizing:border-box;
+        -webkit-box-sizing:border-box; 
+    } 
+    body{
+        background-color: #ffffff;
+        font-family: Arial,Tahoma,Verdana, sans-serif;
+        color: #424d53;
+        font-size: 16px;
+    }
+    .clearfix {
+        clear: both;
+    }
+    header{
+            background-color: #ffffff;
+        }
+        .menu{
+            background: #ffffff;
+            margin-bottom: 0px;
+            border: 0px;
+        }
+        .menu .logo{
+            float: left;
+        }
+        .menu h1{
+            margin: 0;
+            font-size: 24px;
+            font-weight: normal;
+            padding-top: 10px;
+            padding-left: 70%;
+        }
+        #navbar5{
+            width: 318px;
+            margin: auto;
+            float: right;
+        }  
+        .menu ul.nav li a {
+            text-decoration: none;
+            color: #424d53;
+            transition: all 0.3s ease;
+        }
+        .menu ul.nav li a:hover {
+            color: #4682B4;
+            padding-bottom: 0;
+            cursor: pointer;
+        }
+        main{
+            background-color: #ffffff;
+        }
+        .me{
+            height: 1280px;
+            background-image: url(images/me1.jpg);
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .w460 h3{
+            font-size: 90px;
+            color: #2c69a7;;
+            font-weight: 250;
+            text-transform: uppercase;
+            padding-bottom: 0%;
+        }
+        .w460 p{
+            font-size: 20px;
+        }
+        .box {
+            position: relative;
+            border: 1px solid darkgray;
+            margin: 60px;
+            padding: 40px;
+            box-shadow: 6px 6px 11px 6px rgba(179, 208, 255, 1),
+                        6px 6px 11px 6px rgb(255, 48, 83);
+        }
+        .box a {
+            text-decoration: none;
+            color: #424d53;
+            border-bottom: 2px solid transparent;
+            padding-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        .box a:hover {
+            color: #4682B4;
+            padding-bottom: 0;
+            cursor: pointer;
+        }
+        footer{ 
+            height: 90px;
+            background-color: #3b3d3d;
+            overflow: hidden;
+            background-repeat: repeat-x;
+            padding-top: 2%;
+        }
+            .copyright{
+                color: #ffffff;
+                font-weight: 700;
+                font-size: 24px;
+                text-align: center;
+                margin-bottom: 2%;
+            }
+            footer ul{
+                width: 150px;
+                height: 50px;
+                margin-bottom: 10%;
+            }
+                footer ul li{
+                    width: 30px;
+                    height: 30px;
+                    float: left; /*เพื่อให้ไอคอนแรกชิดซ้าย ถ้าขวาก็ชิดขวา*/
+                    margin-left: 5px;
+                    margin-right: 5px;                    
+                }
+                .icon1,.icon2,.icon3{
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                }
+                    .icon1{
+                        background-image: url(images/icon/facebook.jpg);
+                    }
+                    .icon1:hover{
+                        background-image: url(images/icon/facebook-o.jpg);
+                    }
+                    .icon2{
+                        background-image: url(images/icon/instagram.jpg);
+                    }
+                    .icon2:hover{
+                        background-image: url(images/icon/instagram-o.jpg);
+                    }
+                    .icon3{
+                        background-image: url(images/icon/pinterest.jpg);
+                    }
+                    .icon3:hover{
+                        background-image: url(images/icon/pinterest-o.jpg);
+                    }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="menu navbar navbar-default">
+            <div class="logo">
+                <h1>skypeachf</h1>
+            </div>
+            
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar5">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+               
+              </div>
+              <div id="navbar5" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <!--<li class="active"><a href="index.html">HOME</a></li>-->
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="sky.html">SKY</a></li>
+                    <li><a href="art.html">ART</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+              </div>
+              <!--/.nav-collapse -->
+            </div>
+            <!--/.container-fluid -->
+        </nav>   
+
+        <div class="clearfix"></div>
+
+        <main role="main">
+            
+            <section class="me">
+                <div class="box">
+                    <article class="w460"> <!--col-lg-6 col-md-6 col-sm-12 col-xs-12-->
+                        <h3>ABOUT ME</h3>
+                        <p>Name : Taweeporn Treewichayapong</p>
+                        <p>Student ID : 63130010379</p>
+                        <p>COSCI - Computer for Communication</p>
+                        <p>Email : <a href ="taweeporn.first@g.swu.ac.th" target="_blank">taweeporn.first@g.swu.ac.th</a></p>
+                        <p>Instagram : <a href ="https://instagram.com/firstwpt?igshid=egm2ocz02a2v" target="_blank">firstwpt</a></p>
+                        <p>Facebook : <a href ="https://www.facebook.com/taweeporn.treewichayapong" target="_blank">Taweeporn Treewichayapong</a></p>
+                    </article>
+                </div>
+            </section><!--X me-->           
+        </main>
+
+        <footer>
+            <div class="copyright col-md-4">
+                <h4>Copyright &copy; 2022 | skypeachf</h4>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <ul class="container">
+                    <li><a href="https://www.facebook.com/taweeporn.treewichayapong/" target="_blank" class="icon1"></a></li>
+                    <li><a href="https://www.instagram.com/firstwpt/" target="_blank" class="icon2"></a></li>
+                    <li><a href="https://pin.it/4g5MP0n" target="_blank" class="icon3"></a></li>
+                </ul>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
